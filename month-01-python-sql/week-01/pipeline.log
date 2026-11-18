@@ -1,0 +1,26 @@
+2026-11-18 22:32:17,334 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/users
+2026-11-18 22:32:18,393 | INFO     | Extracted 10 records successfully.
+2026-11-18 22:32:18,398 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/posts
+2026-11-18 22:32:19,110 | INFO     | Extracted 100 records successfully.
+2026-11-18 22:32:19,127 | INFO     | DQ PASSED [users_prod]: 10 valid rows, 0 null/duplicate keys.
+2026-11-18 22:32:19,128 | INFO     | DQ PASSED [posts_prod]: 100 valid rows, 0 null/duplicate keys.
+2026-11-18 22:32:19,155 | INFO     | Pipeline completed and committed to SQLite successfully.
+2026-11-18 22:34:58,284 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/users
+2026-11-18 22:34:59,509 | INFO     | Extracted 10 records successfully.
+2026-11-18 22:34:59,512 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/posts
+2026-11-18 22:35:00,869 | INFO     | Extracted 100 records successfully.
+2026-11-18 22:35:00,883 | INFO     | DQ PASSED [users_prod]: 10 valid rows, 0 null/duplicate keys.
+2026-11-18 22:35:00,885 | INFO     | DQ PASSED [posts_prod]: 100 valid rows, 0 null/duplicate keys.
+2026-11-18 22:35:00,924 | INFO     | Pipeline completed and committed to SQLite successfully.
+2026-11-18 22:45:42,896 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/users
+2026-11-18 22:45:43,841 | INFO     | Extracted 10 records successfully.
+2026-11-18 22:45:43,845 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/posts
+2026-11-18 22:45:44,497 | INFO     | Extracted 100 records successfully.
+2026-11-18 22:45:44,544 | ERROR    | Pipeline aborted: DQ FAILED [users_prod]: Null values found in Primary Key 'user_id'
+2026-11-18 22:47:22,366 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/users
+2026-11-18 22:47:23,048 | INFO     | Extracted 10 records successfully.
+2026-11-18 22:47:23,052 | INFO     | Extracting data from https://jsonplaceholder.typicode.com/posts
+2026-11-18 22:47:23,697 | INFO     | Extracted 100 records successfully.
+2026-11-18 22:47:23,709 | INFO     | DQ PASSED [users_prod]: 10 valid rows, 0 null/duplicate keys.
+2026-11-18 22:47:23,710 | INFO     | DQ PASSED [posts_prod]: 100 valid rows, 0 null/duplicate keys.
+2026-11-18 22:47:23,751 | INFO     | Pipeline completed and committed to SQLite successfully.
